@@ -10,5 +10,29 @@
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="rootl@localhost" uuid="b856c1e8-e09a-4cc1-b470-65ee644cad15">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/rootl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mysql@localhost" uuid="801ee22e-3db7-4498-9609-413152aab421">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/mysql?serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MyDB@localhost" uuid="4a8a0a30-f2f4-42ad-96a5-b3b49b589c0c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/MyDB?serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="TMD@localhost" uuid="01b10039-0efd-4196-9592-0de6a7915b01">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/TMD?serverTimezone=UTC</jdbc-url>
+    </data-source>
   </component>
 </project>
